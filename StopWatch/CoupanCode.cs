@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProgram
 {
-    public class CouponCode
+    public static class CouponCode
     {
 
         public static int Generator()
@@ -19,14 +19,14 @@ namespace LogicalProgram
         public static void couponCode()
         {
             Console.Write("Enter the number of unique coupons request:");
-            int check=Generator();
-            int count=0;
+            int check = Generator();
+            int count = 0;
             int n = Convert.ToInt32(Console.ReadLine());
             int Coupon_Code = Generator();
 
             while (n > 0)
             {
-                if ( check == n)
+                if (check == n)
                 {
                     Console.WriteLine("coupon numbers.");
                     break;
@@ -38,14 +38,12 @@ namespace LogicalProgram
             }
             Console.WriteLine(" The number of times random number using:" + count);
 
-
-
         }
     }
 }
 
-     
 
-        
-    
+
+
+
 
