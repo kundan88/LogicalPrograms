@@ -5,7 +5,8 @@ namespace LogicalProgram
     {
         public static void Main(string[] args)
         {
-            ReverseNumber.Reverse();
+           
+            CouponCode.couponCode();
         }
     }
 }
