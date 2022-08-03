@@ -5,7 +5,7 @@ namespace LogicalProgram
     {
         public static void Main(string[] args)
         {
-            FibonacciSeries.Fibonacci();
+            PerfectNumber.Perfect();
         }
     }
 }
