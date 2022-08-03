@@ -5,7 +5,7 @@ namespace LogicalProgram
     {
         public static void Main(string[] args)
         {
-            PrimeNumber.Prime();
+            ReverseNumber.Reverse();
         }
     }
 }
